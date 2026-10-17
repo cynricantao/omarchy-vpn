@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cynricantao.vpn",
+  "name": "VPN Connections",
+  "version": "1.0.0",
+  "author": "cynricantao",
+  "license": "MIT",
+  "description": "WireGuard and NetworkManager VPN controls with live status and profile paths.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "VPN Connections",
+    "description": "Connect or disconnect VPN profiles and inspect their config paths.",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {},
+    "schema": []
+  }
+}

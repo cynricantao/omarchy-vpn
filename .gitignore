@@ -1,0 +1,6 @@
+# Private runtime state, local configuration and generated reports
+__pycache__/
+*.py[cod]
+.DS_Store
+*.backup*
+*.bak*
